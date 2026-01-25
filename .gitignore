@@ -1,0 +1,27 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Conda / virtual environments
+EDU/
+env/
+venv/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Training outputs (large files)
+outputs/
+predictions/
+train_stats/
+
+# Model checkpoints (optional)
+*.pth
+
+# Logs
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
