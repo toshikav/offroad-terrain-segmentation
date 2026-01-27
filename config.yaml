@@ -1,16 +1,31 @@
-dataset:
-  train_dir: ../Offroad_Segmentation_Training_Dataset/train
-  val_dir: ../Offroad_Segmentation_Training_Dataset/val
-  test_dir: ../Offroad_Segmentation_testImages
+# ===============================
+# Offroad Terrain Segmentation
+# Configuration File
+# ===============================
 
+# Dataset paths
+data:
+  train_images: "./data/train/Color_Images"
+  train_masks: "./data/train/Segmentation"
+  val_images: "./data/val/Color_Images"
+  val_masks: "./data/val/Segmentation"
+  test_images: "./data/test/Color_Images"
+
+# Training parameters
 training:
-  batch_size: 2
   epochs: 30
+  batch_size: 2
   learning_rate: 0.0001
+  num_workers: 2
 
+# Model parameters
 model:
-  backbone: dinov2_vits14
-  num_classes: 10
+  backbone: "DINOv2"
+  embedding_dim: 384
 
+# Output paths
 output:
-  save_dir: outputs
+  checkpoints: "./outputs/checkpoints"
+  predictions: "./outputs/predicted_masks"
+  color_masks: "./outputs/color_masks"
+  stats: "./train_stats"
