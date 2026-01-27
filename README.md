@@ -22,7 +22,11 @@ Offroad Segmentation Submission/
 
 +-- README.md                      # This file
 
-+-- Hackathon\_Report.pdf           # Detailed report
++-- Hackathon\_Report.pdf          # Detailed report
+
++-- plot_metrics.py                # Script to generate training and validation metric curves
+
++-- visualize.py                   # Utility for visualizing segmentation outputs
 
 ¦
 
@@ -53,6 +57,10 @@ ROLES OF EACH FILE:
 \- outputs/                -> Generated masks and evaluation results
 
 \- README.md               -> Instructions and project details
+
+\- plot_metrics.py          -> Script to generate training and validation metric curves
+
+\- visualize.py            -> Utility for visualizing segmentation outputs
 
 
 
@@ -91,6 +99,12 @@ Offroad Segmentation testImages/
 ENVIRONMENT SETUP
 
 ------------------------------------------------------------
+
+\-  ENV_SETUP/                  –> Environment setup instructions
+
+\-  .gitignore                  -> Excludes environment, cache, and temporary files
+
+
 
 1\. Create conda environment:
 
