@@ -190,6 +190,13 @@ outputs/
 
 
 
+## Project Presentation
+
+-----------------------------------------------------------
+
+The final project presentation used for hackathon submission is available here:
+
+ `presentation/Offroad_Terrain_Segmentation_Presentation.pdf`
 
 
 
