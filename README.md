@@ -63,7 +63,6 @@ ROLES OF EACH FILE:
 \- visualize.py            -> Utility for visualizing segmentation outputs
 
 
-
 DATASET STRUCTURE
 
 ------------------------------------------------------------
@@ -94,6 +93,26 @@ Offroad Segmentation testImages/
 
 &nbsp;+-- Segmentation/
 
+
+
+REQUIREMENTS
+
+-----------------------------------------------------------
+&nbsp; torch 
+
+&nbsp; torchvision
+
+&nbsp; numpy
+
+&nbsp; opencv-python
+
+&nbsp; matplotlib
+
+&nbsp; pyyaml
+
+&nbsp; tqdm
+
+&nbsp; scikit-learn
 
 
 ENVIRONMENT SETUP
